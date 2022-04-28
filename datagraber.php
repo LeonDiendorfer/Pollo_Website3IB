@@ -5,9 +5,9 @@
 //Version 1.0
 //Nimmt Daten aus dem Inputfelder und schreibt es mit nem SQL Statement in unsre MySql Datenbank
 
-$servername = "localhost";
-$username = "pollo";
-$password = "admin1234";
+$servername = "dudldorfer.mysql.database.azure.com";
+$username = "dudldorfer";
+$password = "Birkenweg6";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
